@@ -1,6 +1,6 @@
 name: BoboBot automated
  
-on: push
+on: workflow_dispatch
 
 env:
   TYPE: build
