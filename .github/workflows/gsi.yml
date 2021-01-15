@@ -23,8 +23,8 @@ jobs:
          run: |
               sudo -E apt-get -qq update
               sudo -E apt-get -qq install bc build-essential zip curl libstdc++6 git wget python gcc clang libssl-dev rsync flex bison ccache openjdk-8-jdk expect aria2
-              git config --global user.name "nnippon"
-              git config --global user.email "adameyyad999@gmail.com"
+              git config --global user.name "MiDoNaSR545"
+              git config --global user.email "ahmednasr1973913@gmail.com"
               git clone --recurse-submodules https://github.com/nnippon/ErfanGSIs
      
        - name: Setup Erfan Tools
@@ -73,7 +73,7 @@ jobs:
          timeout-minutes: 1
          run: |
               mkdir loop
-              git clone https://github.com/nnippon/gsibot-personal loop/loop
+              git clone https://github.com/MiDoNaSR545/gsibot-personal loop/loop
               cd loop/loop
               echo "1" >> loop.txt
               git add .
