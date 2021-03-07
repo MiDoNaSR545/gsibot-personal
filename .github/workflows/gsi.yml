@@ -3,7 +3,7 @@ name: BoboBot automated
 on: workflow_dispatch
 
 env:
-  TYPE: push
+  TYPE: build
   TZ: Asia/Manila
 jobs:
   build:
